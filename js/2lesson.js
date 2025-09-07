@@ -17,6 +17,6 @@
 // const result = ageNazar + ageVlad;
 // console.log(result);
 
-const from = prompt('Where are you from:');
-const sity = prompt('Where are you sity:');
-console.log('Ви проживаєте в місці:', sity, 'ви знаходитесь:', from);
+// const from = prompt('Where are you from:');
+// const sity = prompt('Where are you sity:');
+// console.log('Ви проживаєте в місці:', sity, 'ви знаходитесь:', from);
