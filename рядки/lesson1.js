@@ -23,7 +23,7 @@
 // const resalt = 'Nazik Kamazik';
 // console.log(resalt[0]);
 // console.log(resalt.charAt(7));
-const message = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, quaerat.';
+// const message = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, quaerat.';
 // console.log(message.indexOf('dolor'));
 // console.log(message.includes('dolor'));
 // console.log(message.startsWith('Lorem'));

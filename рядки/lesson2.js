@@ -26,9 +26,9 @@
 // console.log(text);
 
 
-const nameOll = 'Nazar Triukhan'
-const nameIndex = nameOll.indexOf(' ')
-console.log(nameIndex);
+// const nameOll = 'Nazar Triukhan'
+// const nameIndex = nameOll.indexOf(' ')
+// console.log(nameIndex);
 
 
 // Створити змінну, яка містить рядок з вашим ім'ям та прізвищем. 
@@ -42,12 +42,12 @@ console.log(nameIndex);
 // (кількість хвилин) і буде виводити рядок в форматі часу як результат.
 //  Наприклад 80 виведе 01:20 450 - 07:30. Можете використати наступні формули
 
-const totalMinut = Number(prompt('how minuts'));
-  const numberHours = totalMinut/ 60;
-  const days = Math.floor(numberHours / 24);
-  const hours = Math.floor(numberHours % 60);
-  const modHours = String(hours).padStart(2, 0);
-  const minutes = отримане число % 60;
-  const modMinutes = String(minutes).padStart(2, 0);
-  console.log(hours);
+// const totalMinut = Number(prompt('how minuts'));
+//   const numberHours = totalMinut/ 60;
+//   const days = Math.floor(numberHours / 24);
+//   const hours = Math.floor(numberHours % 60);
+//   const modHours = String(hours).padStart(2, 0);
+//   const minutes = отримане число % 60;
+//   const modMinutes = String(minutes).padStart(2, 0);
+//   console.log(hours);
   
