@@ -86,6 +86,14 @@
 // 'Золотий партнер, знижка 10%'
 // 'У вас ще немає партнерської знижки'
 
+const totalSpent = Number(prompt('скільки витратрачено:'));
 
-
-console.log(2 + true);
+if(totalSpent>=100 && totalSpent<=1000){
+    console.log(alert(`Оформляемо замовлення на суму ${totalSpent} зі знижкою 2%`));
+}else if(totalSpent>1000 && totalSpent<=5000){
+console.log(alert(`Оформляемо замовлення на суму ${totalSpent} зі знижкою 5%`));
+}else if(totalSpent>5000){
+console.log(alert(`Оформляемо замовлення на суму ${totalSpent} зі знижкою 10%`));
+}else{
+    console.log(alert(`У вас ще немає партнерської знижки`));
+}
