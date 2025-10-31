@@ -52,17 +52,18 @@
 // Якщо довжина рядка не перевищує 40 символів, функція повертає її в початковому   вигляді.
 // Якщо довжина більше 40 символів, то функція обрізає рядок до 40-ка символів і додає в кінець 
 // рядка три крапки '...', після чого повертає   укорочену версію.
-function formatString(string) {
-    if (string.length <= 40) {
-        return string
-    }else{
-        const obriz = string.slice(0,40) + '...'
-        return obriz
+// function formatString(string) {
+//     if (string.length <= 40) {
+//         return string
+//     }else{
+//         const obriz = string.slice(0,40) + '...'
+//         return obriz
         
-    }
+//     }
     
-}
-console.log(formatString('sdfg sdfg sdfg sdfg sdfg sdf gsdf sg tgt rcdc btbrvdfbg bdbdfbdv fghnbgfvd aergfhgnbfvadwdaedfhnhb '));
-console.log(formatString('sdfg rvdfbg bdbdfbdv fghnbgfvd aergfhgnbfvadwdaedfhnhb '));
-console.log(formatString('sdfg sdfg sdf'));
+// }
+// console.log(formatString('sdfg sdfg sdfg sdfg sdfg sdf gsdf sg tgt rcdc btbrvdfbg bdbdfbdv fghnbgfvd aergfhgnbfvadwdaedfhnhb '));
+// console.log(formatString('sdfg rvdfbg bdbdfbdv fghnbgfvd aergfhgnbfvadwdaedfhnhb '));
+// console.log(formatString('sdfg sdfg sdf'));
+
 
