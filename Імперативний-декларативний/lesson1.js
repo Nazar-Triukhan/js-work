@@ -2,7 +2,7 @@
 // const test = arr.forEach((item,index,arrr)=>{console.log(arrr);})
 
 // масив.метод(()=>{})
-    //масив.метод((item, idx, arr)=> item)
+//     масив.метод((item, idx, arr)=> item)
 //     const dataArray = [
 //   {
 //     id: 101,
@@ -44,3 +44,4 @@
 // console.log(arrMap);
 
 
+// // 
