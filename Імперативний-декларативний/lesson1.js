@@ -3,7 +3,7 @@
 
 // масив.метод(()=>{})
 //     масив.метод((item, idx, arr)=> item)
-//     const dataArray = [
+//     const dataArray = [      
 //   {
 //     id: 101,
 //     name: "Олег",
