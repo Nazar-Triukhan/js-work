@@ -201,3 +201,133 @@
 // топ-3 найдешевших
 
 // топ-3 найдорожчих
+
+
+
+
+
+// ================================
+// ЗАВДАННЯ 1. Статистика масиву
+// ================================
+// Створи функцію getStats(arr),
+// яка повертає обʼєкт з полями:
+// sum, max, min, average
+
+const numbers = [4, 7, 2, 9, 1, 6];
+
+function getStats(arr) {
+  const totalNum = numbers.reduce((acc,item) => acc + item,0)
+  const maxNum = Math.max(...numbers)
+  const minNum = Math.min(...numbers)
+  const average = totalNum / numbers.length
+  return `sum:${totalNum}, max: ${maxNum}, min:${minNum}, average: ${average}`
+}
+
+
+console.log(getStats(numbers));
+
+
+// ================================
+// ЗАВДАННЯ 2. Очищення даних
+// ================================
+// З масиву прибрати всі falsy значення
+// (null, undefined, 0, "", false, NaN)
+
+const values = [10, null, 5, undefined, 0, 8, "", 3];
+
+const cleanedValues = values => {
+    const erorSlice = values.filter(item => item)
+    return erorSlice
+    
+}
+// твій код тут
+
+console.log(cleanedValues(values));
+
+// ================================
+// ЗАВДАННЯ 3. Filter + Map
+// ================================
+// Отримати імена користувачів,
+// яким 18 або більше років
+
+const users = [
+  { name: "Nazar", age: 16 },
+  { name: "Ivan", age: 20 },
+  { name: "Oleh", age: 17 }
+];
+
+const adultNames = users.filter(item => item.age >= 18).map(item => item.name)
+// твій код тут
+
+console.log(adultNames);
+// ================================
+// ЗАВДАННЯ 4. Пошук користувача
+// ================================
+// Функція повинна знайти користувача за імʼям
+// або повернути 
+
+function findUser(users, name) {
+  const userSpotlinght = users.find(item => item.name === name)
+  if(!userSpotlinght){
+    console.log("User not found");
+    
+  }
+  return userSpotlinght
+}
+
+console.log(findUser(users, "Ivan"));
+
+
+// ================================
+// ЗАВДАННЯ 5. Підрахунок символів
+// ================================
+// Порахувати, скільки разів
+// кожна літера зустрічається в рядку
+
+// const text = "frontend developer";
+
+// const lettersCount = 
+
+// console.log(lettersCount);
+// незнаю як рішити
+
+// ================================
+// ЗАВДАННЯ 6. Перевірка обʼєкта
+// ================================
+// name — непорожній рядок
+// age — число більше 0
+
+const user = { name: "Nazar", age: 16 };
+
+function isValidUser(user) {
+  const nameCheck = user.map(item => item.name).filter(item => item === '')
+  const ageCheck = user.map(item => item.age).filter(item => item > 0)
+  return `${nameCheck}.      ${ageCheck}` 
+}
+
+console.log(isValidUser(user));
+
+
+// ================================
+// ЗАВДАННЯ 7. Immutable update
+// ================================
+// Створити новий обʼєкт,
+// не змінюючи старий
+
+const product = { name: "Phone", price: 500 };
+
+const updatedProduct = 
+// твій код тут
+
+console.log(updatedProduct);
+
+// ================================
+// ЗАВДАННЯ 8. Сортування
+// ================================
+// Відсортувати користувачів
+// за віком (зростання)
+
+// const sortedUsers = 
+// // твій код тут
+
+// console.log(sortedUsers);
