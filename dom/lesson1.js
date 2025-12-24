@@ -23,10 +23,24 @@
 // console.log(paretnEl);
 
 // const itemEl = itemsEL.firstElementChild
-// console.log(itemEl);
+// // console.log(itemEl);
 
 
 
-const numbers = [4, 7, 2, 9, 1, 6];
-const totalNum = Math.max(...numbers)
-console.log(totalNum);
+// const numbers = [4, 7, 2, 9, 1, 6];
+// const totalNum = Math.max(...numbers)
+// console.log(totalNum);
+
+
+
+// elem.parentNode — вибере батька elem
+// elem.childNodes — псевдомасив зберігає всі дочірні елементи, включаючи текстові.
+// elem.children — псевдомасив зберігає тільки дочірні вузли-елементи, тобто відповідні тегам.
+// elem.firstChild — вибере перший дочірній елемент всередині elem, включаючи текстові вузли.
+// elem.firstElementChild — вибере перший дочірній вузол-елемент всередині elem.
+// elem.lastChild — вибере останній дочірній елемент всередині elem, включаючи текстові вузли.
+// elem.lastElementChild — вибере останній дочірній вузол-елемент всередині elem.
+// elem.previousSibling — вибере елемент "зліва" від elem (його попереднього сусіда)
+// elem.previousElementSibling - вибере вузол-елемент "зліва" від elem (його попереднього сусіда)
+// elem.nextSibling — вибере елемент "справа" від elem (його наступного сусіда)
+// elem.nextElementSibling — вибере вузол-елемент "справа" від elem (його попереднього сусіда)
