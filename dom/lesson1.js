@@ -44,3 +44,48 @@
 // elem.previousElementSibling - вибере вузол-елемент "зліва" від elem (його попереднього сусіда)
 // elem.nextSibling — вибере елемент "справа" від elem (його наступного сусіда)
 // elem.nextElementSibling — вибере вузол-елемент "справа" від elem (його попереднього сусіда)
+
+// const titleEl = document.querySelector('#title')
+// console.log(titleEl);
+// const titleReferens = document.getElementById('title')
+// titleReferens.style.color = 'red'
+// console.log(titleReferens);
+
+
+// const linkEl = document.querySelector('.link')
+// linkEl.classList.add('facebook')
+// console.log(linkEl.classList.contains('facebook'));
+// linkEl.classList.remove('link')
+// linkEl.classList.replace('facebook','link')
+// linkEl.classList.toggle('link')
+// console.log(linkEl);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// // Зробіть всі зовнішні посилання помаранчевими, змінюючи властивість style.
+
+// const linkEl = document.querySelector('a')
+// linkEl.style.color = 'red'
+// console.log(linkEl);
+
+
+// Оберіть всі посилання всередині списку та додайте першому і останньому клас зі стилями
+
+const elemRef = document.querySelectorAll('ul > li > a')
+elemRef[0].classList.add('first')
+elemRef[elemRef.length - 1].classList.add('last')
+console.log(elemRef);
+
