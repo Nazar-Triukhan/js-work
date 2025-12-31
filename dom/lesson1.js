@@ -84,8 +84,8 @@
 
 // Оберіть всі посилання всередині списку та додайте першому і останньому клас зі стилями
 
-const elemRef = document.querySelectorAll('ul > li > a')
-elemRef[0].classList.add('first')
-elemRef[elemRef.length - 1].classList.add('last')
-console.log(elemRef);
+// const elemRef = document.querySelectorAll('ul > li > a')
+// elemRef[0].classList.add('first')
+// elemRef[elemRef.length - 1].classList.add('last')
+// console.log(elemRef);
 
